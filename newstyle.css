@@ -1,0 +1,54 @@
+.img100{
+    width:100%;
+}
+.profile{
+    border-radius: 50%;
+    max-width: 100px;
+}
+.btnmain{
+    background-color: #facf83;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 18px 63px 17px;
+    text-transform: uppercase;
+}
+.text-right{
+    text-align: right;
+}
+.sub1{
+    overflow: hidden;
+text-overflow: ellipsis;
+-webkit-box-orient: vertical;
+display: -webkit-box!important;
+-webkit-line-clamp: 1;
+}
+.sub2{
+    overflow: hidden;
+text-overflow: ellipsis;
+-webkit-box-orient: vertical;
+display: -webkit-box!important;
+-webkit-line-clamp: 2;
+}
+.sub4{
+    overflow: hidden;
+text-overflow: ellipsis;
+-webkit-box-orient: vertical;
+display: -webkit-box!important;
+-webkit-line-clamp: 4;
+}
+.bd-0{
+    border: 0!important;
+}
+@media only screen and (max-width: 479px) {
+
+    .description-review-bottom{
+        padding: 40px 10px 30px 10px;
+    }
+    .comment-area .single-review .review-content{
+        padding: 20px 12px;
+    }
+}
